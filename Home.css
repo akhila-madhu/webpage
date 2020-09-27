@@ -1,0 +1,16 @@
+.cards{
+    margin:0 auto;
+    max-width:1000px;
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:30px;
+}
+
+.card{
+    box-shadow:0 0 3px grey;
+}
+
+.card_img{
+    width:100%;
+    display:box;
+}
